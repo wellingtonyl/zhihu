@@ -311,7 +311,7 @@ tdm2ass_gram <- function(tdm, term, r, name="") {
     ## 谈论特朗普时的前十大高频词汇:
     ##  支持者 政治正确 中国人 墨西哥 俄罗斯 正确的 伊斯兰 华尔街 全球化 华盛顿
 
-![Alt text](https://github.com/wellingtonyl/zhihu/master/images/trump_wordcloud.png)
+![Alt text](https://github.com/wellingtonyl/zhihu/raw/master/images/trump_wordcloud.png)
 
 再来看看希拉里的：
 
