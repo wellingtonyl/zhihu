@@ -317,6 +317,8 @@ tdm2ass_gram <- function(tdm, term, r, name="") {
 
     ## 谈论希拉里时的前十大高频词汇:
     ##  支持者 犹太人 基金会 政治正确 邮件门 中国人 俄罗斯 维基解密 国务卿 阿桑奇
+    
+![Alt text](https://github.com/wellingtonyl/zhihu/raw/master/images/hillary_wordcloud.png)
 
 需要说明的是，为了避免影响分析，一些超高频词如“特朗普”，“希拉里”，“民主党”，“共和党”，“奥巴马”等已经事先删除了，详见上面的停用词表。
 
@@ -330,10 +332,14 @@ tdm2ass_gram <- function(tdm, term, r, name="") {
 
 下面是两人共有的高频词汇的词云，“支持者”，“政治正确”，“中国人”，“俄罗斯”等词位居前列，这反应了知乎用户在美国大选期间关注的焦点话题。
 
+![Alt text](https://github.com/wellingtonyl/zhihu/raw/master/images/common_word_cloud.png)
+
 金字塔图
 --------
 
 金字塔图取了25个两人共有高频词，比较其词频的差异。从图中可以看出在大多数热门词汇上，特朗普方面的讨论热度要远高于希拉里方面，如对“政治正确”，“墨西哥”，“俄罗斯”和“中国人”等话题。只有在“基金会”，“犹太人”等希拉里“专属词汇”上，希拉里才超过了特朗普。总体上，特朗普在知乎上的人气高于希拉里。
+
+![Alt text](https://github.com/wellingtonyl/zhihu/raw/master/images/pyramid.png)
 
 相关词图
 --------
@@ -341,6 +347,8 @@ tdm2ass_gram <- function(tdm, term, r, name="") {
 相关词图描述了一个特定的词与其它词的相关性。可以用相关词图从大量文本中挖掘潜藏的信息。
 
 我们看到当谈到希拉里的“价值观”时，最相关的词是“多元化”。而特朗普的“价值观”则是“民族融合”，“工薪阶层”和“个人主义”。相关词图一下子为我们找出了两人价值观的差异。
+
+![Alt text](https://github.com/wellingtonyl/zhihu/raw/master/images/相关词_价值观.jpeg)
 
 情感分析
 --------
@@ -354,6 +362,8 @@ tdm2ass_gram <- function(tdm, term, r, name="") {
 值得一提的是，在所有情感得分为负数的文章中，特朗普的平均得分-2.517，低于希拉里的-1.891（t检验显著）。关于特朗普的负面情感文章总数为1065篇，占比10.5%；希拉里的负面情感文章总数为906篇，占比9.2%。无论是平均得分，负面文章总数还是负面文章占比，特朗普都输给了希拉里。这说明知乎用户对特朗普的评价相比希拉里而言是两级分化的，喜欢他的人自是喜欢，讨厌他的人则极为讨厌他。
 
 情感分析再次向我们证明了知乎用户总体上喜欢特朗普更甚于希拉里，同时对特朗普的情感趋向于两极分化。
+
+![Alt text](https://github.com/wellingtonyl/zhihu/raw/master/images/qinggan.png)
 
 总结
 ----
